@@ -1,8 +1,14 @@
 {
-  "Book": {
+  "Post": {
     "title": { "string": {} },
-    "subtitle": { "string": {} },
-    "author": { "string": {} },
-    "publisher": { "string": {} }
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
