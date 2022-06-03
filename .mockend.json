@@ -1,0 +1,8 @@
+{
+  "Book": {
+    "title": { "string": {} },
+    "subtitle": { "string": {} },
+    "author": { "string": {} },
+    "publisher": { "string": {} }
+  }
+}
